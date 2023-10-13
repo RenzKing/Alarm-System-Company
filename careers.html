@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <title>Trace ALarm and Security System, Inc.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="img/trace.jpg" alt="" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+
+            <li><a href="careers.html">Careers</a></li>
+            <li><a href="contact us.html">Contact us</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>CAREERS</h1>
+      </div>
+    </section>
+
+    <section class="careers">
+      <h1>Join Us</h1>
+      <p>Job Title and Description</p>
+    </section>
+
+    <ul id="accordion">
+      <li>
+        <label for="first">Alarm and CCTV Technician<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="first" checked />
+        <div class="content">
+          <h6>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
+            Ipsum Lorem IpsumLorem IpsumLorem IpsumLorem
+          </h6>
+        </div>
+      </li>
+
+      <li>
+        <label for="second">I.T / Netwrok Support<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="second" />
+        <div class="content">
+          <h6>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem Ipsum
+          </h6>
+        </div>
+      </li>
+
+      <li>
+        <label for="third">Accounting Staff<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="third" />
+        <div class="content">
+          <h6>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem Ipsum
+          </h6>
+        </div>
+      </li>
+
+      <li>
+        <label for="fourth"
+          >Billing and Collection Staff<span>&#x3e;</span></label
+        >
+        <input type="radio" name="accordion" id="fourth" />
+        <div class="content">
+          <h6>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem Ipsum
+          </h6>
+        </div>
+      </li>
+
+      <li>
+        <label for="fifth">Human Resources Staff<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="fifth" />
+        <div class="content">
+          <h6>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem Ipsum
+          </h6>
+        </div>
+      </li>
+
+      <li>
+        <label for="sixth">CMS Operator<span>&#x3e;</span></label>
+        <input type="radio" name="accordion" id="sixth" />
+        <div class="content">
+          <h6>
+            Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem IpsumLorem IpsumLorem
+            IpsumLorem IpsumLorem IpsumLorem Ipsum
+          </h6>
+        </div>
+      </li>
+    </ul>
+
+    <section class="contact-us">
+      <h1>Connect with Us</h1>
+      <p>Lorem Ipsum dolor sit amet, consectetur adispiscing elit.</p>
+
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>(63) 8896-0888 / 8890-5352</h5>
+              <p>Monday to Saturday, 8AM to 5PM</p>
+            </span>
+          </div>
+
+          <div>
+            <i class="fa fa-envelope"></i>
+            <span>
+              <h5>info@tracealarm.com.ph</h5>
+              <p>Email us your query</p>
+            </span>
+          </div>
+        </div>
+
+        <div class="contact-col">
+          <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Name" required />
+            <input
+              type="Email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <input type="text" name="subject" placeholder="Subject" required />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>
+            <button type="submit" class="hero-btn red-btn">Upload CV</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!----footer---->
+
+    <section class="footer">
+      <div class="nav-footer-links">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="contact us.html">Contact us</a></li>
+        </ul>
+      </div>
+
+      <h4>
+        &copy;2022 Trace Alarm and Security System, Inc.<br />
+        All rights reserved.
+      </h4>
+
+      <div class="icons">
+        <i class="fa-brands fa-facebook-square"></i>
+        <i class="fa-brands fa-whatsapp-square"></i>
+      </div>
+    </section>
+
+    <!-----javaScript for Toggle Menu----->
+
+    <script>
+      var navlinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      function myFunction(id) {
+        var x = document.getElementById(id);
+        if (x.className.indexOf("w3-show") == -1) {
+          x.className += " w3-show";
+        } else {
+          x.className = x.className.replace(" w3-show", "");
+        }
+      }
+    </script>
+  </body>
+</html>
