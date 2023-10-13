@@ -807,6 +807,10 @@ h3 {
   text-align: center;
 }
 
+.careers-p {
+  text-decoration: none;
+}
+
 .careers-col {
   width: 80%;
   margin: auto;
